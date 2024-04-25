@@ -47,7 +47,7 @@ index <= rutas <= controller <= data
 👨🏽‍💻
 <Hr>
     <img src="./assets/img/foto_MVC_backend_db_fronted.png" alt="">
-    <img src="./assets/img/foto_API_REST_FULL_solicitudes_HTTP_CRUD.png" alt="">  
+    <img src="./assets/img/foto_API_REST_FULL_solicitudes_foto_HTTP_CRUD.png" alt="">  
 <hr>
 www.desafiolatam.com
 <br> 
