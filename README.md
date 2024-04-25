@@ -1,5 +1,5 @@
 # //--------MODULO 8-PostgreSQL en Node.js Token--------
- 👨🏽‍💻Development Languages:
+ 👨🏽‍💻Development Languages and Tools::
    
 <img width="70px" 
     height="70px" 
@@ -13,8 +13,6 @@
     height="70px" 
     style="margin: 10px"
     src="./assets/img/javascript.svg"> &nbsp; &nbsp;
-
-👨🏽‍💻Tools:
     <img width="70px" 
     height="70px" 
     style="margin: 10px"
