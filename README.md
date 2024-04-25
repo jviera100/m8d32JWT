@@ -1,17 +1,44 @@
 # //--------MODULO 8-PostgreSQL en Node.js Token--------
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
-![DBeaver](https://img.shields.io/badge/DBeaver-183059?style=for-the-badge&logo=dbeaver&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-![API](https://img.shields.io/badge/API-FF6F61?style=for-the-badge&logo=api&logoColor=white)
-![Gitignore](https://img.shields.io/badge/Gitignore-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![MVC](https://img.shields.io/badge/MVC-FF6F61?style=for-the-badge&logoColor=white)
+ 👨🏽‍💻Development Languages:
+   
+<img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/html.svg"> &nbsp;
+<img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/css.svg"> &nbsp;
+<img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/javascript.svg"> &nbsp; &nbsp;
+
+👨🏽‍💻Tools:
+    <img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/git.svg"> &nbsp; &nbsp;
+    <img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/github-icon-1.svg"> &nbsp; &nbsp; 
+    <img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/node.svg"> &nbsp; &nbsp; 
+    <img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/npm-square-red-1.svg"> &nbsp; &nbsp; 
+    <img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/toptal-logo-wordmark.svg"> &nbsp; &nbsp;  
+    <img width="70px" 
+    height="70px" 
+    style="margin: 10px"
+    src="./assets/img/visual-studio-code-1.svg"> &nbsp; &nbsp; 
 
 <br>
 🚀[token](https://m8d32token.onrender.com)
@@ -21,31 +48,8 @@
 index <= rutas <= controller <= data
 👨🏽‍💻
 <Hr>
-    <img src="./assets/img/foto_MVC_backend_db_fronted.png" alt="">      
-<Hr>
--# Uso de req.params, req.body y req.query en las operaciones CRUD con solicitudes HTTP.
--
--● req.params: Se utiliza en las operaciones Read (GET), Update (PUT) y Delete (DELETE) para capturar los parámetros de la ruta en la URL, generalmente un ID para buscar en la base de datos, API o en un archivo JSON.
--  --ejemplo:
--         //--Read (GET): Para obtener una tarea específica por su ID.//
--                app.get('/tasks/:taskId', function(req, res) {
--                    let taskId = req.params.taskId;
--                    // Buscar la tarea en la base de datos y devolverla
--                });
--● req.body: Se utiliza en las operaciones Create (POST) y Update (PUT) para acceder a los datos enviados en el cuerpo de la solicitud HTTP, generalmente para agregar o actualizar datos en la base de datos, API o en un archivo JSON.
--  --ejemplo:
--          //--Create (POST): Para crear una nueva tarea.//
--                app.post('/tasks', function(req, res) {
--                    let newTask = req.body;
--                    // Agregar la nueva tarea a la base de datos
--                    });
--● req.query: Se utiliza en la operación Read (GET) para leer los parámetros de consulta en la URL, generalmente para filtrar resultados en una base de datos, API o en un archivo JSON.
--  --ejemplo:
--          //--Read (GET): Para obtener tareas que coincidan con un estado específico (por ejemplo, completadas).
--                app.get('/tasks', function(req, res) {
--                    let status = req.query.status;
--                    // Buscar las tareas que coincidan con el estado en la base de datos y devolverlas
--                });
+    <img src="./assets/img/foto_MVC_backend_db_fronted.png" alt="">
+    <img src="./assets/img/foto_API_REST_FULL_solicitudes_HTTP_CRUD.png" alt="">  
 <hr>
 www.desafiolatam.com
 <br> 
