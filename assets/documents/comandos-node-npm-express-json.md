@@ -917,9 +917,13 @@ ejemplo:
 # MVC
 /*● MVC (Model-View-Controller: modelo-vista-controlador)
     ● (frontend = cliente)     
-    el index.js importa archivo middlewares, que fija carpetas estaticas views y assets, que muestran el html en el navegador,  y este enlaza script.js y style.css de carpeta assets.
+    el index.js importa archivo middlewares, que fija carpetas estaticas views y assets,
+     que muestran el html en el navegador,  y este enlaza script.js y style.css de carpeta assets.
     ● (backend = servidor)
-    index.js (levanta el servidor) y este importa archivo routes.js (las rutas) y este importa los controllers.js (api rest full) y este importa la config el db.js (conexion database) y este importa archivo .env (variables de entorno). Opcionalmente los controllers pueden importar la data de una API o desde archivo json.
+    index.js (levanta el servidor) y este importa archivo routes.js (las rutas) 
+    y este importa los controllers.js (api rest full) y este importa la config el db.js (conexion database)
+     y este importa archivo .env (variables de entorno). 
+     Opcionalmente los controllers pueden importar la data de una API o desde archivo json.
     */
 
 
