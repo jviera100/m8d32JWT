@@ -54,9 +54,23 @@ const dashboardControl = (req, res) => {
         return;
       }
 
-      // Envía una página de bienvenida personalizada con la información del agente
-      res.send(`Bienvenido al dashboard ${data.email}. 
-        Su rol es ${data.role} y tiene los siguientes permisos: ${data.permissions.join(", ")}`);
+      // Obtener el rol del agente desde el token decodificado
+      const { role } = data;
+
+      // Servir la vista correspondiente según el rol del agente
+      let dashboardView;
+      if (role === 'admin') {
+        dashboardView = 'admin.html';
+      } else if (role === 'supervisor') {
+        dashboardView = 'supervisor.html';
+      } else if (role === 'agent') {
+        dashboardView = 'agent.html';
+      } else {
+        dashboardView = 'default.html';
+      }
+
+      // Enviar la vista correspondiente al cliente
+      res.sendFile(path.join(__dirname, `../views/${dashboardView}`));
     });
   } catch (error) {
     console.log(error);
@@ -64,9 +78,10 @@ const dashboardControl = (req, res) => {
   }
 };
 
+
 // Función para mostrar la página de inicio
 const homeControl = (req, res) => {
-  res.sendFile(path.join(__dirname, "../index.html"));
+  res.sendFile(path.join(__dirname, "../views/index.html"));
 };
 
 export { inicioSesionControl, dashboardControl, homeControl };
